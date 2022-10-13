@@ -1,9 +1,10 @@
 @use "./partials/setup";
-@use "./partials/variables" as *;
+@use "./partials/variables";
 @use "./partials/typography";
 @use "./partials/baseStyles";
 @use "./partials/nav";
 @use "./partials/header";
+@use "./partials/sections";
 
 // HEADINGS:
 // h1: 28px;

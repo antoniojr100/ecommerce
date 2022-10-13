@@ -492,5 +492,44 @@ header .headerImgContainer {
 }
 header .headerContentContainer {
   width: 55%;
-  padding: 0 60px;
+  padding: 0 90px;
+}
+
+.categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.categoryGallery .items {
+  width: calc(50% - 50px);
+  margin: 50px 25px 25px;
+  border-radius: 10%;
+  padding: 45px;
+  text-align: center;
+}
+.categoryGallery .items img {
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+.categoryGallery .items a:hover,
+.categoryGallery .items a:focus {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.categoryGallery .item1 {
+  background-color: #ffd698;
+}
+.categoryGallery .item2 {
+  background-color: #f4fcff;
+}
+.categoryGallery .item3 {
+  background-color: #f8fbf3;
+}
+.categoryGallery .item4 {
+  background-color: #fff5f5;
 }
