@@ -465,3 +465,7 @@ a.button:focus {
 .navBar .cartFlex .bag {
   margin-right: 15px;
 }
+
+.slideOutNav {
+  display: none;
+}
