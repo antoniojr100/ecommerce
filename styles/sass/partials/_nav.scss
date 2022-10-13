@@ -1,0 +1,36 @@
+@use "./variables";
+
+.navBar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid rgba($color: variables.$primaryColour, $alpha: 0.08);
+    background-color: variables.$white;
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    .cartFlex{
+        display: flex;
+        align-items: center;
+        .counter p{
+            margin-bottom: 0;
+            height: 24px;
+            width: 24px;
+            background-color: variables.$primaryColour;
+            color: variables.$white;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 1.1;
+        }
+        .menuIcon,
+        .bag{
+            margin-right: 15px;
+        }
+    }
+}
+
+// To do: Make functional slide-out nav
+// .slideOutNav{}
